@@ -463,7 +463,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1762402139267916}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.53, y: 0, z: 9.75}
+  m_LocalPosition: {x: -1.84, y: 0.848, z: 9.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4971482406158502}
@@ -910,8 +910,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0045447, y: 2.2034264, z: 1.3853967}
-  m_Center: {x: -0.42792797, y: 1.0634937, z: 0.12368703}
+  m_Size: {x: 1.2994006, y: 2.2034264, z: 1.4133558}
+  m_Center: {x: 0.3732072, y: 1.0634937, z: -0.15498114}
 --- !u!95 &95412572256533296
 Animator:
   serializedVersion: 3
@@ -969,7 +969,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1762402139267916}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 1.05
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
