@@ -316,6 +316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   appleSpeed: 5
+  ui: {fileID: 0}
 --- !u!135 &135559887691574684
 SphereCollider:
   m_ObjectHideFlags: 1

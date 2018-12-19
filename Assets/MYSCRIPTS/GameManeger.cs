@@ -6,6 +6,7 @@ public class GameManeger : MonoBehaviour {
 
 	public Transform appleStartPoz;
 	public GameObject apple;
+	public GameObject UI;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +20,11 @@ public class GameManeger : MonoBehaviour {
 			  Instantiate(apple, appleStartPoz.position, appleStartPoz.rotation);
 		 }
 
+		if (Input.GetKeyDown("space"))
+			UI.SetActive(true);
+		 }
+
+
 	}
 
-}
+

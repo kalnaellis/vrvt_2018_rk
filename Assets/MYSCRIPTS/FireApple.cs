@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FireApple : MonoBehaviour
 {
@@ -37,6 +38,11 @@ public class FireApple : MonoBehaviour
             stop = true;
             Rigidbody rb = GetComponent<Rigidbody>();
             rb.useGravity = true;
+            col.gameObject.GetComponent<AudioSource>().Play();
+            GetComponent<Collider>().enabled =false;
+         
+            Instantiate(col.gameObject,Vector3.zero,  Quaternion.identity);
+          
 
         }
 
